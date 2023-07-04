@@ -29,6 +29,7 @@ nav {
   text: 18px;
   color: #e5e7eb;
   padding: 10px;
+  text-decoration: none;
 }
 
 .header-info-image {
@@ -57,6 +58,7 @@ nav {
   text-decoration: none;
   padding: 5px 20px;
   border-radius: 5px;
+  color: #e5e7eb;
 }
 
 .header-info-image img {
@@ -110,3 +112,45 @@ nav {
   font-weight: bold;
   align-self: flex-end;
 }
+
+/*Call to action-----------------------------------*/
+
+.call-to-action {
+  margin: 100px;
+  padding:50px;
+  background: #3882f6;
+  border-radius: 5px;
+  color: white;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.call-to-action h3,
+.call-to-action p {
+  margin: 0px; 
+}
+
+.call-to-action a {
+  background: #3882f6;
+  text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 2px solid white;
+  color: #e5e7eb;
+}
+
+
+/*footer-----------------------------------*/
+
+
+footer {
+  background: #1f2937;
+  text-align: center;
+
+  text: 18px;
+  color: #e5e7eb;
+  padding: 10px;
+}
+
