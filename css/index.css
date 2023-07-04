@@ -4,27 +4,24 @@ body{
   font-family: Arial, Helvetica, sans-sherif;
 }
 
+
+nav {
+  display: flex;
+}
+
+
+/*header---------------------------------*/
+
 .presentation{
   background: #1f2937;
   margin: 0px;
   padding: 20px 150px 120px 150px;
 }
 
-nav {
-  display: flex;
-}
-
-a {
-  background: #3882f6;
-  text-decoration: none;
-  padding: 5px 20px;
-  border-radius: 5px;
-}
-
 .header-logo {
-  text: 30px;
+  text: 25px;
   color: #f9faf8;
-  font-weight: bold;
+  font-weight: extra-bold;
   flex: 1;
 }
 
@@ -55,7 +52,61 @@ a {
   color: #e5e7eb;
 }
 
+.header-info a {
+  background: #3882f6;
+  text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
 .header-info-image img {
   display: inline-block;
   width: 500px;
+}
+
+
+/*Info-----------------------------------*/
+
+.some-random-info{
+  text-align: center;
+}
+
+.some-random-info h2{
+  text: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+}
+
+.items-of-information {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.items-of-information img {
+  width: 200px;
+  border-radius: 20px;
+}
+
+/*Quote-----------------------------------*/
+
+.random-quote {
+  background: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 400px;
+  font-weight: normal;
+}
+
+.random-quote em {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1f2937;
+}
+
+.random-quote p {
+  font-weight: bold;
+  align-self: flex-end;
 }
